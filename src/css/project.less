@@ -1,0 +1,142 @@
+@color_dom: #656b8c;
+@color_button: #bf7e04;
+@color_button_show: rgba(191, 126, 4, .8);
+@color_button_light: lighten(hsl(39, 96%, 38%), 10%);
+@color_yellow: #f2b705;
+@color_text: #dfdfdf;
+@color_text_2: #858aa4;
+@color_text_3: #646464;
+@color_shadow: rgba(14%, 14%, 14%, 0.05);
+@color_info: rgba(14%, 14%, 14%, 0.8);
+@color_text_2_rgba: rgba(133, 138, 164, 0.05);
+@color_dom_rgba: rgba(101, 107, 140, 0.05);
+
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.fade-in {
+  animation-name: fadeIn;
+  animation-duration: 1.3s;
+  animation-timing-function: cubic-bezier(0, 0, 0.4, 1);
+  animation-fill-mode: forwards;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  /*fieldset вырезал до возникновения необходимости*/
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img,
+abbr {
+  border: 0;
+}
+/*fieldset вырезал до возникновения необходимости*/
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ul li {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+  display: block;
+}
+
