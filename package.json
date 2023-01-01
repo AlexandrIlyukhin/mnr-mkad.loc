@@ -13,7 +13,7 @@
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
-    "babel-loader": "^8.0.5",
+    "babel-loader": "^8.3.0",
     "browser-sync": "^2.26.3",
     "del": "^4.1.0",
     "gulp": "^4.0.0",
@@ -35,7 +35,7 @@
     "imagemin-pngquant": "^7.0.0",
     "path": "^0.12.7",
     "smart-grid": "^2.1.2",
-    "webpack-stream": "^5.2.1"
+    "webpack-stream": "^7.0.0"
   },
   "dependencies": {
     "core-js": "^3.0.1",
